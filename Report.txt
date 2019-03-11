@@ -1,0 +1,37 @@
+1. Clone Repository
+
+        git clone https://github.com/richbighouse/mad-314-cv-assignment.git | clones the repository to local environment 
+
+2. Set Remote of cloned repository to my repository
+
+        git remote set-url origin https://github.com/hgmehta/MAD314-CV-1896288 | sets the remote to the given repository URL
+        git push | Copies all file to the provided repository including all previous commits
+
+3. Clone Repository
+
+        git clone https://github.com/hgmehta/MAD314-CV-1896288.git | clones the repository to local environment
+
+4. Copy Resume to the MAD314-CV-1896288 repository | Modified Stage
+
+5. Add Resume to staged state by writing following command
+
+        git add Harsh\ Mehta.pdf
+
+6. Commit resume to Git by wirting following command | Commited Stage
+
+        git commit -m "Added Resume" | Commit the resume with the given message
+
+        If Email and Name is not configured
+        
+        git config --global user.email "Email"
+        git config --global user.name "Name"
+
+        After configuring email and name write the commit command
+
+7. Push the commited resume to GitHub
+
+        git push | Push the commited files to GitHub Server
+
+        Need to provide GitHub credentials to push the file on github
+
+8. To commit the report follow the same step from 4 to 7
